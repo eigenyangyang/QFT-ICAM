@@ -1,0 +1,24 @@
+# Configuration file for processing QFT-ICAM data for Cruise PS121.
+# Empty lines and lines start with "#" are overridden.
+# Statements can be in any order.
+
+#-----Make changes according to your situation.-----------------------
+# Seperator between repeted measurement labels.
+separator=
+# Diameter in cm of filter clearence area.
+diameter=2.133
+# beta factor.
+beta=4.06
+
+
+#-----Do not make any change below unless you know what you are doing.----------------------------
+# External filtration volumn data file.
+externalvolumn=qft_icam_matched_labels_filtration_volumn.txt
+# Information for uploading data to pangaea. 
+concurrentInfo=labels_latlon_datetime_qft.txt
+
+# Parameters from the .ini file. 
+#wavelength range and resolution.		
+xi=320:2:844    
+#fluorescence correction range in nm.           
+fluorkorr=670:800		 
